@@ -11,6 +11,18 @@
         android:order="-1001" />
 
     <PreferenceCategory
+        android:key="quick_settings_category"
+        android:title="@string/quick_settings_category">
+
+        <co.aospa.framework.preference.SecureSettingSwitchPreference
+            android:key="qs_show_data_usage"
+            android:title="@string/qs_show_data_usage_title"
+            android:summary="@string/qs_show_data_usage_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="lockscreen_category"
         android:title="@string/lockscreen_category_title">
 
