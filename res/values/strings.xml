@@ -47,6 +47,8 @@
 
 
     <!-- UI -->
+    <string name="quick_settings_category">QS panel</string>
+    <string name="statusnar_category">Status Bar</string>
     <string name="lockscreen_category_title">Lockscreen</string>
     <string name="something_ui_dashboard_title">Interface</string>
     <string name="hide_qs_on_secure_lockscreen_title">Hide QS on secure lockscreen</string>
@@ -74,7 +76,6 @@
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
 
     <!-- QS footer data usage -->
-    <string name="quick_settings_category">QS panel</string>
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
 
@@ -82,4 +83,12 @@
     <string name="qs_dual_tone_title">QS dual tone</string>
     <string name="qs_dual_tone_summary">Use dual tone background colors</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_state_title">Network traffic indicator</string>
+    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_title">Network traffic indicator</string>
+    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
 </resources>
