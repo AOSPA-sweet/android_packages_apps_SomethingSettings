@@ -78,4 +78,8 @@
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
 
+    <!-- QS Dual Tone Colors -->
+    <string name="qs_dual_tone_title">QS dual tone</string>
+    <string name="qs_dual_tone_summary">Use dual tone background colors</string>
+
 </resources>

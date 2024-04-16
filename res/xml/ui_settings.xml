@@ -20,6 +20,12 @@
             android:summary="@string/qs_show_data_usage_summary"
             android:defaultValue="true" />
 
+        <co.aospa.framework.preference.SystemSettingSwitchPreference
+               android:key="qs_dual_tone"
+               android:title="@string/qs_dual_tone_title"
+               android:summary="@string/qs_dual_tone_summary"
+               android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
