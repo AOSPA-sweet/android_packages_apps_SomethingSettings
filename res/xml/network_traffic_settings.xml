@@ -4,7 +4,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/network_traffic_title">
 
-    <co.aospa.framework.preference.SystemSettingMainSwitchPreference
+    <com.android.settingslib.widget.MainSwitchPreference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_master_switch_title"
         android:defaultValue="false" />
@@ -12,7 +12,7 @@
     <PreferenceCategory
         android:title="@string/network_options_title">
 
-        <co.aospa.framework.preference.SystemSettingSwitchPreference
+        <SwitchPreference
             android:key="network_traffic_autohide_threshold"
             android:title="@string/network_traffic_autohide_title"
             android:summary="@string/network_traffic_autohide_summary"
